@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HVAC Pro — Soluzioni per Comfort e Efficienza</title>
+  <meta name="description" content="HVAC Pro - Installazione, manutenzione e servizi per impianti di riscaldamento, ventilazione e condizionamento."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="is-loaded">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">HVAC <span>Pro</span></a>
+      <nav class="nav">
+        <a href="#services">Servizi</a>
+        <a href="#projects">Progetti</a>
+        <a href="#about">Chi Siamo</a>
+        <a href="#contact" class="cta">Contattaci</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Apri menu" id="navToggle">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-label="Hero">
+      <div class="container hero-grid">
+        <div class="hero-content" data-animate>
+          <h1>Comfort, Efficienza, Affidabilità</h1>
+          <p>Installiamo e manteniamo impianti HVAC su misura per abitazioni e aziende. Soluzioni energetiche e assistenza 24/7.</p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn primary">Richiedi un preventivo</a>
+            <a href="#services" class="btn ghost">I nostri servizi</a>
+          </div>
+        </div>
+        <div class="hero-visual" data-animate>
+          <div class="card">
+            <div class="card-stat">
+              <div class="stat-value" data-count="15">0</div>
+              <div class="stat-label">Anni di esperienza</div>
+            </div>
+            <img src="https://images.unsplash.com/photo-1581093588401-5f0b9e0f1b4d?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=3c4b7a0b" alt="Tecnico HVAC" />
+          </div>
+        </div>
+      </div>
+      <svg class="hero-wave" viewBox="0 0 1440 100" preserveAspectRatio="none" aria-hidden="true"><path d="M0,40 C360,100 1080,0 1440,60 L1440 100 L0 100 Z"></path></svg>
+    </section>
+
+    <section class="services container" id="services" aria-labelledby="servicesTitle">
+      <h2 id="servicesTitle" class="section-title" data-animate>Servizi</h2>
+      <p class="section-sub" data-animate>Progettazione, installazione e manutenzione per impianti residenziali e commerciali.</p>
+      <div class="grid services-grid">
+        <article class="service" data-animate>
+          <div class="icon">🔥</div>
+          <h3>Riscaldamento</h3>
+          <p>Caldaie, pompe di calore e sistemi ibridi per massimizzare il comfort e ridurre i consumi.</p>
+        </article>
+        <article class="service" data-animate>
+          <div class="icon">❄️</div>
+          <h3>Climatizzazione</h3>
+          <p>Impianti VRF/ductless e sistemi centralizzati con controllo intelligente della temperatura.</p>
+        </article>
+        <article class="service" data-animate>
+          <div class="icon">🌬️</div>
+          <h3>Ventilazione</h3>
+          <p>Sistemi di ventilazione meccanica controllata (VMC) per qualità dell'aria e recupero energetico.</p>
+        </article>
+        <article class="service" data-animate>
+          <div class="icon">🛠️</div>
+          <h3>Manutenzione</h3>
+          <p>Contratti di manutenzione programmata e interventi rapidi 24/7.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects container" id="projects" aria-labelledby="projectsTitle">
+      <h2 id="projectsTitle" class="section-title" data-animate>Progetti Recenti</h2>
+      <div class="carousel" data-animate>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1582719478179-2f5f23b0e6d4?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&s=ce2da2e7" alt="">
+          <div class="project-meta">
+            <h4>Installazione pompe di calore</h4>
+            <p>Centro commerciale - Milano</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1508873699372-7aeab55c3d8b?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&s=9b96d5c1" alt="">
+          <div class="project-meta">
+            <h4>Ristrutturazione impianto HVAC</h4>
+            <p>Complesso residenziale - Torino</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about container" id="about" aria-labelledby="aboutTitle">
+      <h2 id="aboutTitle" class="section-title" data-animate>Chi Siamo</h2>
+      <div class="about-grid">
+        <p data-animate>HVAC Pro è una squadra di tecnici certificati con esperienza nel settore civile e industriale. Ci focalizziamo su efficienza energetica, sicurezza e servizio clienti.</p>
+        <ul class="about-list" data-animate>
+          <li>Certificazioni e normative rispettate</li>
+          <li>Analisi energetiche personalizzate</li>
+          <li>Supporto 24/7 e contratti SLA</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact container" id="contact" aria-labelledby="contactTitle">
+      <h2 id="contactTitle" class="section-title" data-animate>Contattaci</h2>
+      <div class="contact-grid" data-animate>
+        <form class="contact-form" id="contactForm" aria-label="Modulo contatti">
+          <label>
+            Nome
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            Messaggio
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Invia</button>
+            <button type="reset" class="btn ghost">Pulisci</button>
+          </div>
+        </form>
+
+        <aside class="contact-info">
+          <p><strong>Email:</strong> info@hvacpro.it</p>
+          <p><strong>Telefono:</strong> +39 012 345 6789</p>
+          <p><strong>Indirizzo:</strong> Via Esempio 10, 20100 Milano</p>
+          <div class="social">
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="Facebook">Facebook</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> HVAC Pro — Tutti i diritti riservati</p>
+      <nav class="footer-nav">
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Termini</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="scripts.js" defer></script>
+</body>
+</html>
